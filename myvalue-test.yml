@@ -1,3 +1,9 @@
 server:
  port: 8082
-some: valor del servidor test
+some: 
+ value: valor del servidor test
+management:
+ endpoints:
+  web:
+   exposure:
+    include: '*'
